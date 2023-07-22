@@ -271,10 +271,12 @@ ol {
   padding-top: 96px;
 }
 
-.container-cards {
+.portfolio-cards-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 72px 156px 120px 156px;
+  /* padding: 72px 156px 120px 156px; */
+  padding-top: 72px;
+  padding-bottom: 120px;
   gap: 24px;
 }
 .service-list {

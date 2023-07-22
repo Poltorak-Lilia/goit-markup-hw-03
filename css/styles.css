@@ -1,0 +1,330 @@
+:root {
+  --primary-text-color: #434455;
+  --logo-text-color: #4d5ae5;
+  --secondary-text-color: #2e2f42;
+  --accent-text-color: #404bbf;
+  --section-bg: #2e2f42;
+  --light-text-color: #fff;
+  --secondary-bg: #f4f4fd;
+  --team-item-bg: #fff;
+  --logo-footer-part: #f4f4fd;
+  --footer-text-color: #f4f4fd;
+  --portfolio-btn-bg: #f4f4fd;
+  --portfolio-btn-text: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* header */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+.header-logo {
+  color: var(--logo-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.heder-logo-black {
+  color: var(--secondary-text-color);
+}
+.header-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-text-color);
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  color: var(--primary-text-color);
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-text-color);
+}
+/* hero */
+.hero {
+  background: var(--section-bg);
+  padding: 188px 0;
+}
+
+.hero-title {
+  color: var(--light-text-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+}
+.button {
+}
+.hero-btn {
+  color: var(--light-text-color);
+  background-color: var(--logo-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-text-color);
+}
+/* advantages */
+
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages-list {
+  padding: 0 156px;
+  display: flex;
+  gap: 24px;
+}
+.advantages-item {
+  width: calc((100% - 3 * 24) / 4);
+}
+.advantages-hero {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 18px;
+}
+.advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* doing */
+.doing-hero {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 72px;
+}
+.doing-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 156px;
+  padding-bottom: 120px;
+}
+/* team */
+.team {
+  background: var(--secondary-bg);
+}
+
+.team-title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 120px 156px 120px 156px;
+}
+.team-list {
+  padding-top: 120px;
+  padding: 0 156px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+.team-item {
+  background-color: var(--team-item-bg);
+}
+.team-name {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.footer {
+  background: var(--section-bg);
+  display: block;
+  padding-top: 101px;
+}
+.footer-logo-part {
+  color: var(--logo-footer-part);
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--footer-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: block;
+  max-width: 264px;
+  margin-top: 17px;
+}
+/*-------Portfolio------*/
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 96px;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 72px 156px 120px 156px;
+  gap: 24px;
+}
+.service-list {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--cornflower, #e7e9fc);
+}
+.portfolio-item {
+}
+.cards-subtitle {
+}
+.btn-link {
+  color: var(--logo-text-color);
+  text-align: center;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: var(--portfolio-btn-bg);
+  padding: 12px 24px 12px 24px;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: var(--light-text-color);
+  background-color: var(--accent-text-color);
+}
+.cards-subtitle {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+.cards-text {
+  color: var(--primary-text-color);
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

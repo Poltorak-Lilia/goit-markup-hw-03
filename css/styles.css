@@ -48,14 +48,13 @@ ol {
   padding-right: 15px;
   margin: 0 auto;
 }
-/* .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-} */
+.header {
+  padding: 24px 0;
+}
 .header-navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-list {
   display: flex;
@@ -65,7 +64,7 @@ ol {
   display: flex;
   align-items: center;
   gap: 300px;
-  border-bottom: 1px solid #e7e9fc;
+  /* border-bottom: 1px solid #e7e9fc; */
 }
 .header-logo {
   color: var(--logo-text-color);
@@ -152,8 +151,7 @@ ol {
 /* advantages */
 
 .advantages {
-  /* padding-top: 120px; */
-  /* padding-bottom: 120px; */
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -171,7 +169,7 @@ ol {
 .advantages-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);

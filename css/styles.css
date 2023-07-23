@@ -307,6 +307,7 @@ ol {
 }
 .button {
   border: 1px solid var(--cornflower, #e7e9fc);
+  border-radius: 4px;
 }
 .btn-link {
   color: var(--logo-text-color);

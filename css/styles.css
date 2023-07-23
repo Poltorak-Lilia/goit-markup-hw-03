@@ -47,7 +47,6 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 .header {
   padding-top: 25px;
@@ -135,7 +134,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -152,7 +151,7 @@ ol {
 
 .advantages {
   padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .visually-hidden {
@@ -168,7 +167,6 @@ ol {
   overflow: hidden;
 }
 .advantages-list {
-  /* padding: 0 156px; */
   display: flex;
   gap: 24px;
 }
@@ -196,13 +194,13 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  padding-top: 120px;
   padding-bottom: 72px;
 }
 .doing-list {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 0 156px;
   padding-bottom: 120px;
 }
 /* team */
@@ -275,7 +273,6 @@ ol {
 .portfolio-cards-list {
   display: flex;
   flex-wrap: wrap;
-  /* padding: 72px 156px 120px 156px; */
   padding-top: 72px;
   padding-bottom: 120px;
   gap: 24px;

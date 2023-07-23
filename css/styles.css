@@ -48,14 +48,14 @@ ol {
   padding-right: 15px;
   margin: 0 auto;
 }
-.header {
+/* .header {
   padding-top: 25px;
   padding-bottom: 25px;
-}
+} */
 .header-navigation {
   display: flex;
   align-items: center;
-  gap: 76px;
+  padding: 24px 0;
 }
 .header-list {
   display: flex;
@@ -79,6 +79,7 @@ ol {
 
 .heder-logo-black {
   color: var(--secondary-text-color);
+  margin-right: 76px;
 }
 .header-link {
   color: var(--secondary-text-color);
@@ -151,7 +152,7 @@ ol {
 /* advantages */
 
 .advantages {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   /* padding-bottom: 120px; */
 }
 
@@ -170,6 +171,7 @@ ol {
 .advantages-list {
   display: flex;
   gap: 24px;
+  padding: 120px 0;
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -180,7 +182,8 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 18px;
+  /* margin-bottom: 18px; */
+  margin-bottom: 8px;
 }
 .advantages-text {
   line-height: 1.5;
@@ -195,8 +198,9 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-top: 120px; */
+  /* padding-bottom: 72px; */
+  margin-bottom: 72px;
 }
 .doing-list {
   display: flex;
@@ -208,7 +212,7 @@ ol {
 .team {
   background: var(--secondary-bg);
   padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .team-title {
@@ -232,7 +236,7 @@ ol {
 .team-name-text {
   text-align: center;
   padding: 32px 0 32px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 /* .team-name {
   color: var(--secondary-text-color);
@@ -244,6 +248,9 @@ ol {
   padding-top: 32px;
   padding-bottom: 8px;
 } */
+.team-name {
+  margin-bottom: 8px;
+}
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -253,8 +260,9 @@ ol {
 .footer {
   background: var(--section-bg);
   display: block;
-  padding-top: 101px;
-  padding-bottom: 100px;
+  /* display: inline-block; */
+  /* padding-top: 101px; */
+  padding: 100px 0;
 }
 .footer-logo-part {
   color: var(--logo-footer-part);
@@ -266,7 +274,7 @@ ol {
   letter-spacing: 0.02em;
   display: block;
   max-width: 264px;
-  margin-top: 17px;
+  margin-top: 16px;
 }
 /*-------Portfolio------*/
 

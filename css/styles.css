@@ -277,7 +277,7 @@ ol {
   margin-top: 16px;
 }
 /*-------Portfolio------*/
-.Portfolio {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -287,10 +287,7 @@ ol {
   gap: 24px;
   margin-bottom: 72px;
 }
-.content-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .portfolio-cards-list {
   display: flex;
   flex-wrap: wrap;

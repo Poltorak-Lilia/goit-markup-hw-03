@@ -284,16 +284,15 @@ ol {
   display: flex;
   justify-content: center;
   gap: 24px;
-  /* padding-top: 96px; */
 }
 
 .portfolio-cards-list {
   display: flex;
   flex-wrap: wrap;
-  /* padding-top: 72px; */
-  /* padding-bottom: 120px; */
+  /* column-gap: 24px; */
   gap: 24px;
 }
+
 .service-list {
   display: block;
   max-width: 100%;

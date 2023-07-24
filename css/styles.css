@@ -152,10 +152,9 @@ ol {
 .hero-btn:focus {
   background-color: var(--accent-text-color);
 }
-/* advantages */
 
 .advantages {
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 .visually-hidden {
@@ -173,7 +172,7 @@ ol {
 .advantages-list {
   display: flex;
   gap: 24px;
-  /* padding: 120px 0; */
+  padding: 120px 0;
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -190,7 +189,7 @@ ol {
 .advantages-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 120px;
+  padding-bottom: 120px 0;
 }
 /* doing */
 .doing-hero {
@@ -215,7 +214,7 @@ ol {
 .team {
   background: var(--secondary-bg);
   padding-top: 120px;
-  /* padding-bottom: 120px; */
+  padding-bottom: 120px;
 }
 
 .team-title {

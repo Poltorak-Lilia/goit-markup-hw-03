@@ -78,6 +78,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .heder-logo-black {
@@ -357,6 +358,9 @@ ol {
   letter-spacing: 0.02em;
   padding-bottom: 32px;
   padding-left: 16px;
+}
+.footer-text {
+  margin-top: 16px;
 }
 img {
   display: block;

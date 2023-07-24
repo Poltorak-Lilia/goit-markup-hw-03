@@ -47,6 +47,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 .header {
   padding: 24px 0;
@@ -284,17 +285,24 @@ ol {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
-
+.content-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
 .portfolio-cards-list {
   display: flex;
   flex-wrap: wrap;
-  /* column-gap: 24px; */
+  justify-content: center;
+  column-gap: 24px;
+  /* padding-left: 156px; */
   gap: 24px;
   row-gap: 48px;
-  border: 1px solid #e7e9fc;
+  /* border: 1px solid var(--cornflower, #e7e9fc); */
 }
-
+.cards-item {
+}
 .service-list {
   display: block;
   max-width: 100%;
@@ -302,7 +310,7 @@ ol {
   border: 1px solid var(--cornflower, #e7e9fc);
 }
 .portfolio-item {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .cards-subtitle {
 }
@@ -339,9 +347,10 @@ ol {
   font-weight: 500;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  padding-top: 32px;
+  /* padding-top: 32px;
   padding-bottom: 8px;
-  padding-left: 16px;
+  padding-left: 16px; */
+  padding: 32px 16px;
 }
 .cards-text {
   color: var(--primary-text-color);

@@ -63,7 +63,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 300px;
-  padding: 24px 0;
   /* border-bottom: 1px solid #e7e9fc; */
 }
 .header-logo {
@@ -76,7 +75,7 @@ ol {
   text-transform: uppercase;
   margin-right: 76px;
   display: inline-block;
-  /* padding: 0 15px; */
+  padding: 24px 0;
 }
 
 .heder-logo-black {
@@ -88,6 +87,7 @@ ol {
   font-weight: 500;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -106,6 +106,7 @@ ol {
   color: var(--primary-text-color);
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .address-link:hover,
 .address-link:focus {

@@ -50,7 +50,8 @@ ol {
   border: 1px solid red;
 }
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   display: flex;
@@ -65,6 +66,7 @@ ol {
   display: flex;
   align-items: center;
   gap: 300px;
+  padding: 24px 0;
   /* border-bottom: 1px solid #e7e9fc; */
 }
 .header-logo {
@@ -75,11 +77,12 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .heder-logo-black {
   color: var(--secondary-text-color);
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 .header-link {
   color: var(--secondary-text-color);
@@ -291,6 +294,7 @@ ol {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  border-top: none;
 }
 .cards-item {
   width: calc((100% - 48px) / 3);

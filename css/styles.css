@@ -254,8 +254,8 @@ ol {
 .footer {
   background: var(--section-bg);
   display: block;
-  padding: 100px 0;
-  margin-bottom: 16px;
+  /* padding: 100px 0;
+  margin-bottom: 16px; */
 }
 .footer-logo-part {
   color: var(--logo-footer-part);

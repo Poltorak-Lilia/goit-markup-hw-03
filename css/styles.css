@@ -294,18 +294,20 @@ ol {
 }
 .cards-item {
   width: calc((100% - 48px) / 3);
+  border: 1px solid var(--cornflower, #e7e9fc);
 }
 .service-list {
   display: block;
   max-width: 100%;
   height: auto;
-  border: 1px solid var(--cornflower, #e7e9fc);
+  /* border: 1px solid var(--cornflower, #e7e9fc); */
 }
 .portfolio-item {
   /* margin-bottom: 72px; */
 }
 .cards-subtitle {
-  padding: 32px 0 32px;
+  padding: 32px 16px;
+  margin-bottom: 8px;
 }
 /* .button {
   border: 1px solid var(--cornflower, #e7e9fc);

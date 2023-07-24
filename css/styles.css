@@ -254,8 +254,8 @@ ol {
 .footer {
   background: var(--section-bg);
   display: block;
-  /* padding: 100px 0;
-  margin-bottom: 16px; */
+  padding: 100px 0;
+  margin-bottom: 16px;
 }
 .footer-logo-part {
   color: var(--logo-footer-part);
@@ -345,12 +345,18 @@ ol {
   color: var(--primary-text-color);
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+  /* padding-bottom: 32px;
+  padding-left: 16px; */
+}
+/* .footer-text {
+  margin-top: 16px;
+} */
+.text-subtitle {
   padding-bottom: 32px;
   padding-left: 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
 }
-.footer-text {
-  margin-top: 16px;
-}
+
 img {
   display: block;
   max-width: 100%;

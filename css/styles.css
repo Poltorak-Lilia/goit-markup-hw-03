@@ -291,6 +291,8 @@ ol {
   flex-wrap: wrap;
   /* column-gap: 24px; */
   gap: 24px;
+  row-gap: 48px;
+  border: 1px solid #e7e9fc;
 }
 
 .service-list {
@@ -304,10 +306,10 @@ ol {
 }
 .cards-subtitle {
 }
-.button {
+/* .button {
   border: 1px solid var(--cornflower, #e7e9fc);
   border-radius: 4px;
-}
+} */
 .btn-link {
   color: var(--logo-text-color);
   text-align: center;
@@ -321,7 +323,10 @@ ol {
   cursor: pointer;
   background-color: var(--portfolio-btn-bg);
   padding: 12px 24px 12px 24px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-radius: 4px;
 }
+
 .btn-link:hover,
 .btn-link:focus {
   color: var(--light-text-color);
